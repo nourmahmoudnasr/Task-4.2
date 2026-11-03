@@ -20,3 +20,18 @@
 .field-grid .readonly-input{background:#f6f4f8;color:#696278;cursor:default}
 .field-grid .email-helper{font-size:11px;color:#978fa2;font-weight:400;line-height:1.4}
 @media(max-width:600px){.detail-panel{padding:22px}.detail-meta{grid-template-columns:1fr}.detail-meta p{margin:6px 0}}
+
+/* Status and condition colours */
+.status-pill,.cond-pill{display:inline-block;border-radius:100px;padding:3px 9px;font-weight:700;letter-spacing:.04em}
+.status-pill.instock{background:#e0f5ec;color:#136b4f}
+.status-pill.soldstatus{background:#fde6e6;color:#a33a3d}
+.cond-pill{font-size:10px;letter-spacing:0}
+.cond-new{background:#dcf3e6;color:#17663f}
+.cond-like-new{background:#dcecfb;color:#1d5a99}
+.cond-used{background:#fdf0d3;color:#8a5a00}
+.cond-worn{background:#fbe1d6;color:#9a3d1b}
+.stamp.cond-new,.stamp.cond-like-new,.stamp.cond-used,.stamp.cond-worn{box-shadow:0 1px 4px #0002}
+.costline .cond-pill{color:inherit}
+.costline .cond-new{color:#17663f}.costline .cond-like-new{color:#1d5a99}.costline .cond-used{color:#8a5a00}.costline .cond-worn{color:#9a3d1b}
+.product.is-sold{opacity:.6}
+.product.is-sold .listing-img{filter:grayscale(1)}
